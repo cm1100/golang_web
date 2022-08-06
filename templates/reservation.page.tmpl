@@ -1,0 +1,115 @@
+<!doctype html>
+
+{{template "base" .}}
+
+
+
+{{define "css"}}
+
+	<style>
+	.my-footer{
+	background-color:#163b65;
+	margin-top:1em;
+	padding:1em;
+	color:#FFFFFF;
+	}
+
+	.notie-container{
+		box-shadow: none;
+	}
+
+	
+	</style>
+
+
+	
+
+{{end}}
+
+
+{{define "content"}}
+
+
+	
+	
+	
+<div class="container"> 
+
+
+	<div class = "row">
+		<div class="col">
+			<h1 class = "mt-5">Search For Availibilty</h1>
+
+		</div>
+	</div>
+
+
+
+
+
+
+
+
+<form action="/book" method= "POST" class="needs_validation" novalidate>
+	<input type="text" name="csrf_token" value="{{.CSRFToken}}">
+
+	<div class="row">
+		<div id="col">
+
+
+			<div class="row" id="reservation-dates">
+				<div class="col">
+					<label for="start_date" class="form-label">Start Date:</label>
+					<input required id="start_date" class="form-control" type="text" name="start" placeholder="Arrival">
+				</div>
+				<div class="col">
+					<label for="end_date" class="form-label">End Date:</label>
+					<input required id="end_date" class="form-control" type="text" name="end" placeholder="Departure">
+				</div>
+			</div>
+		</div>
+	</div>
+	<hr>
+<button type="submit" class="btn btn-primary">Submit</button>
+</form>
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+	<div class="row my-footer">
+
+		<div class = "col text-center">
+		Left
+		</div>
+
+		<div class = "col text-center">
+		Middle
+		</div>
+
+		<div class = "col text-center">
+		Right
+		</div>
+
+	</div>
+
+
+{{end}}
+
+{{define "js"}}
+
+
+
+<script type="text/javascript" src="/static/javascript/c1.js"></script>
+
+
+
+{{end}}

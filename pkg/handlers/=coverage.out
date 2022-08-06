@@ -1,0 +1,20 @@
+mode: set
+myapp2/pkg/handlers/handlers.go:21.41,25.2 1 1
+myapp2/pkg/handlers/handlers.go:27.49,35.2 4 1
+myapp2/pkg/handlers/handlers.go:38.50,41.2 2 0
+myapp2/pkg/handlers/handlers.go:43.50,56.2 7 1
+myapp2/pkg/handlers/handlers.go:59.50,70.2 5 1
+myapp2/pkg/handlers/handlers.go:73.56,77.2 1 0
+myapp2/pkg/handlers/handlers.go:80.61,91.2 4 0
+myapp2/pkg/handlers/handlers.go:95.66,98.15 2 1
+myapp2/pkg/handlers/handlers.go:103.2,120.18 6 1
+myapp2/pkg/handlers/handlers.go:136.2,137.58 2 1
+myapp2/pkg/handlers/handlers.go:98.15,101.3 2 0
+myapp2/pkg/handlers/handlers.go:120.18,133.3 4 0
+myapp2/pkg/handlers/handlers.go:147.60,155.2 4 1
+myapp2/pkg/handlers/handlers.go:164.61,171.13 3 1
+myapp2/pkg/handlers/handlers.go:174.2,175.14 2 1
+myapp2/pkg/handlers/handlers.go:171.13,173.3 1 0
+myapp2/pkg/handlers/handlers.go:180.64,184.9 2 1
+myapp2/pkg/handlers/handlers.go:191.2,199.8 5 0
+myapp2/pkg/handlers/handlers.go:184.9,189.3 4 1

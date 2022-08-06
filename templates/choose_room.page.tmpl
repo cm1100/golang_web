@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+{{template "base" .}}
+
+{{define "css"}}
+
+	<style>
+
+	.my-footer{
+	background-color:#163b65;
+	margin-top:1em;
+	padding:1em;
+	color:#FFFFFF;
+	}
+
+
+	.red-text{
+		color: red;
+	}
+	</style>
+
+{{end}}
+
+
+{{define "content"}}
+
+
+<div class="container">
+
+	<div class="row">
+		<div class="col">
+
+			<h1> Choose a Room </h1>
+			
+			{{$rooms:= index .Data "rooms"}}
+
+			<ul>
+			{{range $rooms}}
+				<li><a href="/choose_room/{{.ID}}">{{.RoomName}}</a></li><br>
+			{{end}}
+			</ul>
+
+		</div>
+	</div>
+	
+</div>
+
+
+
+<div class="row my-footer">
+
+		<div class = "col text-center">
+		Left
+		</div>
+
+		<div class = "col text-center">
+		Middle
+		</div>
+
+		<div class = "col text-center">
+		Right
+		</div>
+
+	</div>
+<script type="text/javascript" src="../statictic/javascript/c1.js"></script>
+{{end}}
+

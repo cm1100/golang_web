@@ -1,0 +1,2 @@
+INSERT INTO "users" ( "first_name", "last_name", "email", "password", "access_level", "created_at", "updated_at") VALUES
+    (	'admin',	'admin',	'admin@time.com',	'$2a$12$dBDgPhZhFEjctzB.wu1VEuYhuD7icZf83zStxywjRZc25P4t8ydIe',	1,	'2022-07-22 11:39:21.319224',	'2022-07-22 11:39:21.319224');
